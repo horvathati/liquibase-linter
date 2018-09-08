@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://whiteclarkegroup.github.io/liquibase-linter/blog</id>
+    <title>Liquibase Linter Blog</title>
+    <updated>2018-09-09T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://whiteclarkegroup.github.io/liquibase-linter/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Liquibase Linter news and events.</subtitle>
+    <logo>https://whiteclarkegroup.github.io/liquibase-linter/undefined</logo>
+    <rights>Copyright © 2018 White Clarke Group</rights>
+    <entry>
+        <title type="html"><![CDATA[Liquibase Linter Released]]></title>
+        <id>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html</id>
+        <link href="https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html">
+        </link>
+        <updated>2018-09-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>TBA</p>
+]]></summary>
+        <author>
+            <name>David Goss</name>
+            <uri>http://davidgoss.co/</uri>
+        </author>
+    </entry>
+</feed>

@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Working with Rules · Liquibase Linter</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Liquibase Linter has several dozen rules that you can turn on and configure to suit your project."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Working with Rules · Liquibase Linter"/><meta property="og:type" content="website"/><meta property="og:url" content="https://whiteclarkegroup.github.io/liquibase-linter/index.html"/><meta property="og:description" content="Liquibase Linter has several dozen rules that you can turn on and configure to suit your project."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/liquibase-linter/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato"/><script type="text/javascript" src="//buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/liquibase-linter/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/liquibase-linter/"><h2 class="headerTitle">Liquibase Linter</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/liquibase-linter/docs/install" target="_self">Setup</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/liquibase-linter/docs/rules" target="_self">Rules</a></li><li class=""><a href="https://github.com/whiteclarkegroup/liquibase-linter" target="_self">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Rules</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Setup</h3><ul><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/install">Install</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/configure">Configure</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Rules</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/liquibase-linter/docs/rules">Working with Rules</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/create-column-no-define-primary-key">create-column-no-define-primary-key</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/create-column-nullable-constraint">create-column-nullable-constraint</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/create-column-remarks">create-column-remarks</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/create-table-remarks">create-table-remarks</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/drop-not-null-require-column-data-type">drop-not-null-require-column-data-type</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/file-name-no-spaces">file-name-no-spaces</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/has-comment">has-comment</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/has-context">has-context</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/illegal-change-types">illegal-change-types</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/isolate-ddl-changes">isolate-ddl-changes</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/modify-data-enforce-where">modify-data-enforce-where</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/modify-data-starts-with-where">modify-data-starts-with-where</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/no-duplicate-includes">no-duplicate-includes</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/no-preconditions">no-preconditions</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/object-name">object-name</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/object-name-length">object-name-length</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/schema-name">schema-name</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/separate-ddl-context">separate-ddl-context</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/table-name">table-name</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/table-name-length">table-name-length</a></li><li class="navListItem"><a class="navItem" href="/liquibase-linter/docs/rules/valid-context">valid-context</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Working with Rules</h1></header><article><div><span><p>Liquibase Linter has several dozen rules that you can turn on and configure to suit your project.</p>
+<p>None are turned on by default, but most can be turned on simply by adding a key with a <code>true</code> value to the <code>rules</code> object in the config file:</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"rules"</span>: {
+        <span class="hljs-attr">"no-duplicate-includes"</span>: <span class="hljs-literal">true</span>
+    }
+}
+</code></pre>
+<p>The value can also be an options object:</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"rules"</span>: {
+        <span class="hljs-attr">"no-duplicate-includes"</span>: {
+            <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">true</span>
+        }
+    }
+}
+</code></pre>
+<p>This supports a few additional options for some rules. All rules also support two standard options (other than <code>enabled</code>):</p>
+<ul>
+<li><code>errorMessage</code> - (string) override the default error message for this rule, which is output when the rule fails on a change. This can be useful if you are using a rule in a very targeted way and want to make it clear to the developer why it has failed. Most rules make the invalid value they found available to be interpolated with <code>%s</code>.</li>
+<li><code>condition</code> - (string) - <a href="https://www.baeldung.com/spring-expression-language">Spring EL expression</a> that should resolve to a boolean, which if provided will decide whether the rule should be applied or not. The expression scope is the <a href="https://github.com/liquibase/liquibase/blob/master/liquibase-core/src/main/java/liquibase/change/Change.java"><code>Change</code></a> object.</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/liquibase-linter/docs/configure">← Configure</a><a class="docs-next button" href="/liquibase-linter/docs/rules/create-column-no-define-primary-key">create-column-no-define-primary-key →</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>Docs</h5><a href="/liquibase-linter/docs/en/install">Setup</a><a href="/liquibase-linter/docs/en/rules/index">Rules</a></div><div><h5>Code</h5><a href="https://github.com/whiteclarkegroup/liquibase-linter">GitHub</a><a href=""><img alt="Travis Build" src="//travis-ci.org/whiteclarkegroup/liquibase-linter.svg?branch=master"/></a><a href=""><img alt="Codacy Quality" src="//api.codacy.com/project/badge/Grade/320a8a4be4fd44feb9d6102ccdc7e240"/></a></div></section><a href="https://www.whiteclarkegroup.com/" target="_blank" rel="noopener" class="fbOpenSource"><img src="/liquibase-linter/img/wcg-logo.svg" alt="White Clarke Group"/></a><section class="copyright">Copyright © 2018 White Clarke Group</section></footer></div></body></html>
