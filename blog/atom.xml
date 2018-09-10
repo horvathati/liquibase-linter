@@ -2,19 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://whiteclarkegroup.github.io/liquibase-linter/blog</id>
     <title>Liquibase Linter Blog</title>
-    <updated>2018-09-09T06:00:00Z</updated>
+    <updated>2018-09-10T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://whiteclarkegroup.github.io/liquibase-linter/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Liquibase Linter news and events.</subtitle>
     <logo>https://whiteclarkegroup.github.io/liquibase-linter/undefined</logo>
     <rights>Copyright © 2018 White Clarke Group</rights>
     <entry>
-        <title type="html"><![CDATA[Liquibase Linter Released]]></title>
-        <id>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html</id>
-        <link href="https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html">
+        <title type="html"><![CDATA[Introducing Liquibase Linter]]></title>
+        <id>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/10/introducing-liquibase-linter.html</id>
+        <link href="https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/10/introducing-liquibase-linter.html">
         </link>
-        <updated>2018-09-09T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>TBA</p>
+        <updated>2018-09-10T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>This morning, we're very pleased to announce <a href="https://github.com/whiteclarkegroup/liquibase-linter">Liquibase Linter</a>, an open source lint tool for Liquibase.</p>
+<p>We've been working on it internally at White Clarke Group for a few months now, and are excited to have it out in the wild and see the feedback from the Liquibase community.</p>
 ]]></summary>
         <author>
             <name>David Goss</name>

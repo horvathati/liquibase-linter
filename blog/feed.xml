@@ -4,7 +4,7 @@
         <title>Liquibase Linter Blog</title>
         <link>https://whiteclarkegroup.github.io/liquibase-linter/blog</link>
         <description>The best place to stay up-to-date with the latest Liquibase Linter news and events.</description>
-        <lastBuildDate>Sun, 09 Sep 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Sep 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,11 +14,12 @@
         </image>
         <copyright>Copyright © 2018 White Clarke Group</copyright>
         <item>
-            <title><![CDATA[Liquibase Linter Released]]></title>
-            <link>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html</link>
-            <guid>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/09/release.html</guid>
-            <pubDate>Sun, 09 Sep 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>TBA</p>
+            <title><![CDATA[Introducing Liquibase Linter]]></title>
+            <link>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/10/introducing-liquibase-linter.html</link>
+            <guid>https://whiteclarkegroup.github.io/liquibase-linter/blog/2018/09/10/introducing-liquibase-linter.html</guid>
+            <pubDate>Mon, 10 Sep 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This morning, we're very pleased to announce <a href="https://github.com/whiteclarkegroup/liquibase-linter">Liquibase Linter</a>, an open source lint tool for Liquibase.</p>
+<p>We've been working on it internally at White Clarke Group for a few months now, and are excited to have it out in the wild and see the feedback from the Liquibase community.</p>
 ]]></description>
         </item>
     </channel>
