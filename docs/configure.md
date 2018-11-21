@@ -6,7 +6,7 @@ Liquibase Linter doesn't have a standard configuration, so it's up to you to dec
 
 ## JSON config file
 
-You do this by providing a `lqlint.json` file at the root of your project. Here's how it's structured:
+You do this by providing a `lqllint.json` file at the root of your project. Here's how it's structured:
 
 ```json
 {
